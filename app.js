@@ -37,15 +37,3 @@ function factorial(numero){
 
 factorial(4);
 factorial(10);
-
-
-function fibonacci(num){
-    console.log("Ejercicio 5");
-    const fibonacciSerie = [1]
-    for(let i = 0; i<= num; i++){
-        fibonacciSerie[i] = fibonacciSerie[i-1] + fibonacciSerie[i-2] 
-    }
-    console.log(fibonacciSerie);
-}
-
-fibonacci(10);
